@@ -1,0 +1,14 @@
+{
+  "name": "test-maxymiser",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "server:dev": "python -m SimpleHTTPServer 9100",
+    "server": "python simple-https-server.py",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
