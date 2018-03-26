@@ -78,7 +78,7 @@ function createUser() {
   var user = generateUser();
   for(var elem in user) {
     if(user.hasOwnProperty(elem)) {
-      visitor.setData(elem, user[elem]);
+      visitor.setAttr(elem, user[elem]);
       console.log('set ' + elem + ' dimension to ' + user[elem]);
     }
   }
