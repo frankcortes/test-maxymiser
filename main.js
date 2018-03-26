@@ -2,8 +2,7 @@
 
 function purchaseMovie() {
   var price = 120;
-  actions.set('Sales_Quantity', '1').send();
-  actions.set('Sales_Amount', price).send();
+  actions.set('Sales_Quantity', '1').set('Sales_Amount', price).send();
   console.log('A movie was purchased!');
 }
 
